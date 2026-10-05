@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0f172a;
+  font-family: system-ui, sans-serif;
+}
+
+.party-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  background: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.party-button:active {
+  transform: scale(0.95);
+}
